@@ -19,7 +19,9 @@ int main(){
     double prices[] = {67, 69, 6.99, 70, 27};
     int size = sizeof(prices)/sizeof(prices[0]);
     double total = sum(prices, size);
-    std::cout << total << '\n';
+    std::cout << "$" << total << '\n';
+    //prints the total of prices
+    //$239.99
     return 0;
 }
 double sum(double prices[], int size){
